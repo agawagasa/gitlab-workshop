@@ -41,7 +41,8 @@ Subcommands:
   
 `glab label [create,list]` Manage labels on remote
   
-`glab mr` Create, view and manage requests
+`glab mr` Create, view and manage merge requests
+  
  Examples:
 - glab mr create --fill --label bugfix
 - glab mr merge 123
@@ -70,7 +71,18 @@ Subcommands:
 - view
   
 `glab release` Manage gitlab releases
+  
 `glab repo` Work with Gitlab repositories and projects
+  
 `glab schedule` Working with Gitlab schedules
-`
+  
+`glab snippet` Create, view and manage snippets
+  
+`glab ssh-key` Manage SSH keys registered with your GitLab account.
+  
+`glab user` Interact with user
+  
+`glab variable` Manage GitLab project and Group Variables
+  
+`glab version` Show glab version information
 
